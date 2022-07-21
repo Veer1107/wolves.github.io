@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadSong('wolves')">
+    <div class="twoboxes">
+        <div class="contents">
+            <div class="title-box">
+                <h4>Index</h4>
+                <h4>Title</h4>
+                <h4>Duration</h4>
+            </div>
+           
+            <div class="one" id="wolves" onclick="loadSong('wolves')">
+                <span>1</span>
+                <div class="box">
+                    <img src="images/wolves.jpg" alt="" id="image">
+                    <h4 id="titleincontent">Wolves</h4>
+                   
+                </div>
+                <div class="duration">
+                    <span>3.17</span>
+                </div>
+            </div>
+            <div class="one" id="itaintme" onclick="loadSong('itaintme')">
+                <span>2</span>
+                <div class="box">
+                    <img src="images/itaintme.jpg" alt="" id="image">
+                    <h4 id="titleincontent">It Aint ME</h4>
+                   
+                </div>
+                <div class="duration">
+                    <span>3.40</span>
+                </div>
+            </div>
+            <div class="one" id="fireflies" onclick="loadSong('fireflies')">
+                <span>3</span>
+                <div class="box">
+                    <img src="images/fireflies.jpg" alt="" id="image">
+                    <h4 id="titleincontent">Fireflies</h4>
+                   
+                </div>
+                <div class="duration">
+                    <span>3.48</span>
+                </div>
+            </div>
+            <div class="one" id="paris" onclick="loadSong('paris')">
+                <span>4</span>
+                <div class="box">
+                    <img src="images/paris.jpg" alt="" id="image">
+                    <h4 id="titleincontent">Paris</h4>
+                   
+                </div>
+                <div class="duration">
+                    <span>3.41</span>
+                </div>
+            </div>
+            <div class="one" id="photograph" onclick="loadSong('photograph')">
+                <span>5</span>
+                <div class="box">
+                    <img src="images/photograph.jpg" alt="" id="image">
+                    <h4 id="titleincontent"></h4>
+                   
+                </div>
+                <div class="duration">
+                    <span>4.18</span>
+                </div>
+            </div>
+            
+            
+           
+          
+    </div>
+    <div class="text-area">
+        
+            <textarea name="" id="" cols="30" rows="18">Dear Chinmay,
+
+                Today was one of the best days. Barefoot on the waters, posing like the trees, welcoming fireflies and playing our favorite songs. The lights on the 
+                hills looked like stars to me.
+                Perfect day mate( wish we had ice-creams)
+                Thanks to your flat tyre.
+                
+                I have to thank you for a lot of things.  Remember in 2018 I had to appear for jee exams and the center was too far away. You called your driver and drove me that far. You lost your atm card that day. For once I thought to myself, I should get good marks for this guy. But I was very dyslexic at that time and I couldn't process anything and I lost. I still get dyslexic sometimes.
+                Once I returned from raiganj around 2 AM, you showed up and picked me up. You also lend me your watch for my exams.
+                
+                I felt the need to thank you around the time when you came to my house before leaving to Kota. It was kind of emotional.
+                
+                Thank you brother for being there always when no one else was there.
+                
+                I'll make you proud someday and I'm very proud of you.
+                
+                Have Sunflower Days
+                
+                xoxo
+                Veer
+                [7/21/2022]
+            </textarea>
+      
+        
+    </div>
+
+
+   
+    
+</div>
+<div class="music-container ">
+    <div class="music-info">
+        <h4 id="title">One Thing</h4>
+        <div class="progress-container">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <audio src="/music/onething.mp3" id="audio"></audio>
+    <div class="img-container">
+        <img src="/images/onething.jpg" alt="" id="cover">
+    </div>
+    <div class="navigation">
+        <button id="prev" class="action-btn">
+            <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+            <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn ">
+            <i class="fas fa-forward"></i>
+        </button>
+    </div>
+   
+</div>
+<script src="script.js"></script>
+</body>
+</html>
